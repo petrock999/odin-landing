@@ -1,0 +1,181 @@
+.websiteAwesome {
+    background-color: #1f2937;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+
+}
+
+#callToActionId_text {
+    margin-right: 40px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.pics div p {
+    text-align: center;
+    font-size: 10px;
+    color: #3882f6;
+}
+
+button {
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+#button_cta_id {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+#callToActionId>div {
+    margin-top: 10px;
+}
+
+#placeholdImg {
+    width: 350px;
+    background-color: grey;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 73px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+#awesomeWebText {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#bottomText {
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-left: 15%;
+}
+
+#headerLogo {
+    flex-grow: 2;
+}
+
+.links {
+    flex-grow: 1;
+    /* This div will take up less space */
+    display: flex;
+    /* This will line up the links horizontally */
+    justify-content: space-between;
+    /* Optional: This will spread the links */
+}
+
+#randomInfo {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.randomInformation {
+    padding: 10px;
+
+}
+
+#pic1,
+#pic2,
+#pic3,
+#pic4 {
+    border: 4px solid rgb(169, 169, 245);
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 100px 400px;
+    font-weight: 100;
+    /* Lighter weight */
+    font-style: italic;
+    /* Italic style */
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button_span {
+    margin-left: 20px
+}
+
+
+
+
+#thor {
+    font-style: bold;
+    justify-content: end;
+    /* Italic style */
+}
+
+#callToActionId {
+    background-color: #3882f6;
+    width: 400px;
+    padding: 77px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
